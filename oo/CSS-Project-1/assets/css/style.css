@@ -1,0 +1,463 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.navbar-nav{
+  margin-left: auto ;
+}
+.navbar-brand .class{
+  color: #ff4500;
+}
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 700;
+}
+.navbar .navbar-nav .nav-item .butt{
+  background-color: #ff4500;
+  color:white;
+  border-radius: 5px;
+  border-color: #ff4500;
+  border: #ff4500;
+  margin-left: 18px;
+  padding: 7px;
+
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #ff4500;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  color: #ff4500;
+}
+
+.owl-carousel .item {
+  min-height: 500px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide1 {
+  background-image: url('https://themewagon.github.io/prixima/img/bg_banner2.jpg');
+}
+
+.slide2 {
+  background-image: url('https://themewagon.github.io/prixima/img/bg_banner1.jpg');
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.owl-nav .owl-prev {
+  left: 10px;
+}
+
+.owl-nav .owl-next {
+  right: 10px;
+}
+
+.owl-carousel .item {
+  width: 100%; 
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: stretch;
+}
+
+.owl-carousel .owl-nav {
+  display: none;
+}
+h1{
+  font-weight: 600 !important;
+}
+h6{
+  font-weight: 600 !important;
+}
+.info-box{
+  display: flex;
+}
+.space{
+  margin-top: 50px !important;
+}
+#milestone{
+    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(https://themewagon.github.io/prixima/img/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+#milestone h1{
+  color: white;
+  font-size: 70px;
+  font-weight: 500;
+}
+#milestone p{
+  color: white;
+}
+h5{
+  font-weight: 600 !important;
+}
+.service{
+  background-color: whitesmoke;
+  padding: 60px;
+}
+.intro h6{
+  color: #ff4500;
+}
+#portfolio{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.intro {
+  margin-bottom: 36px;
+  text-align: center;
+}
+.project {
+  position: relative;
+  overflow: hidden;
+ background-image: url("https://themewagon.github.io/prixima/img/project2.jpg");
+ height: 500px;
+ padding: 20px;
+ background-size: cover;
+}
+.project-1 {
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://themewagon.github.io/prixima/img/project1.jpg");
+  height: 500px;
+ padding: 20px;
+ background-size: cover;
+}
+.project-2 {
+  position: relative;
+  overflow: hidden;
+ background-image: url("https://themewagon.github.io/prixima/img/project3.jpg");
+ height: 500px;
+ padding: 20px;
+ background-size: cover;
+}
+.project-3 {
+  position: relative;
+  overflow: hidden;
+ background-image: url("https://themewagon.github.io/prixima/img/project4.jpg");
+ height: 500px;
+ padding: 20px;
+ background-size: cover;
+}
+.project-4 {
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://themewagon.github.io/prixima/img/project5.jpg");
+  height: 500px;
+ padding: 20px;
+ background-size: cover;
+}
+.content{
+  margin-top: 350px;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+.project img {
+  width: 20%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.work{
+  margin-top: 25px;
+}
+#team{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+
+#team .intro h3{
+  color: #ff6c00;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+ 
+
+}
+
+
+.team_member{
+  text-align: center;
+  
+}
+
+.team_member:hover .image .small_icons{
+opacity: 1;
+transition: 0.3s ease;
+}
+.team_member .image{
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  opacity: 1;
+  
+}
+.team_member .image img{
+  width: 100%;
+  
+}
+.team_member .image .small_icons{
+  position: absolute;
+  color: white;
+  opacity: 0;
+  top: 50%;
+  left: 30%;
+}
+
+.team_member .image .small_icons a{
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  border-radius: 50px;
+  background: rgba(250, 250, 250, 0.25);
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+.team_member .image .small_icons a:hover{
+  color:black;
+  background: white;
+
+}
+.team_member h5{
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-size: 25px;
+}
+.team_member p{
+  font-size: 16px;
+}
+.team_member .overlay {
+
+  position: absolute;
+  left: 0;
+  top: -10%;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.team_member .overlay:hover{
+  opacity: 1;
+  transition: all 0.4s ease;
+  background-color: rgba(255, 77, 41, 0.7);
+  padding: 60px;
+}
+#reviews{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background:linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url("https://themewagon.github.io/prixima/img/bg_banner1.jpg"), #082032;
+}
+#reviews .reviews{
+  text-align: center;
+  width: 45%;
+  margin: auto;
+
+}
+#reviews .reviews .person{
+  margin-bottom: 30px;
+}
+#reviews .reviews  h3{
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 40px;
+}
+#reviews .person  img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: auto;
+}
+#reviews .person h5{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 600;
+}
+#reviews .person small{
+  color: orange;
+  font-size: 18px;
+}
+#reviews .stars{
+  color: #ff4500;
+}
+#blog{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#blog .intro{
+  text-align: center;
+}
+#blog .intro h3{
+  color: #ff6c00;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+#blog .intro h1{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+
+}
+#blog .intro p{ 
+  max-width: 500px;
+  color: #516171;
+  margin-bottom: 30px;
+}
+#blog .content small{
+  text-transform: uppercase;
+  color: var(--brand);
+  text-decoration: underline;
+}
+#blog .content h5{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: black;
+}
+#blog .con{
+  position: relative;
+  background-color: lightgray;
+  border-radius: 25px;
+
+}
+#blog  .first{
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  color: black;
+  background: #ff7600;
+  height: 33px;
+  width: 125px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-weight: 500;
+}
+#blog .content{
+  padding: 30px;
+  margin-top: 60px;
+}
+#blog .content small{
+  font-size: 16px;
+  color: red;
+  letter-spacing: 1px;
+}
+#blog .content h5{
+  font-size: 22px;
+  font-weight: 600;
+}
+#blog .content p{
+  font-size: 16px;
+  color: #544e4e;
+  letter-spacing: 1px;
+}
+#footer{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background:linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url("https://themewagon.github.io/prixima/img/bg_banner1.jpg"), #082032;
+}
+#footer .review{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+}
+#footer .review .person{
+  margin-bottom: 30px;
+}
+#footer .review  h3{
+  color: #dbcfcf;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 34px;
+  letter-spacing: 0px;
+}
+#footer .company  img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+#footer .company h5{
+  margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+#footer .stars{
+  color: orangered;
+}
+#footer .stars a{
+  font-size: 29px;
+  color: white;
+  background: none;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding-top: 2px;
+  border-radius: 50px;
+}
+#footer .stars a:hover{
+  color: orangered;
+  background: white;
+}
+#footer .company_details{
+  text-align: center;
+}
+#footer .company_details p{
+  font-size: 17px;
+    letter-spacing: 2px;
+    color: #bbb8b8;
+}
+#footer .company_details a{
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+#footer .links{
+  padding-top: 50px;
+}
+#footer .links a{
+  color: white;
+  padding-left: 18px;
+}
+
+
